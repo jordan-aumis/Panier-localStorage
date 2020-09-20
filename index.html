@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Local Storage</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>PANIER</li>
+                <li><img id="logo-panier" src="./img/panier.png" alt="panier" width="35px"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <center><h1>Téléphone</h1></center>
+        <div id="wrapper">
+            <div>
+                <h2 class="nomProduit"></h2>
+                <img class="imgProduit" src="" width="100%" alt="">  
+                <h2>Price : <span></span>€</h2>
+                <a class="btn" href="">Ajouté au panier</a>   
+            </div>
+            <div>
+                <h2 class="nomProduit" ></h2>
+                <img class="imgProduit" src="" width="100%" alt="">
+                <h2>Price : <span></span>€</h2>
+                <a class="btn" href="">Ajouté au panier</a>
+            </div>
+            <div>
+                <h2 class="nomProduit"></h2>
+                <img class="imgProduit" src="" width="100%" alt="">
+                <h2>Price : <span></span>€</h2>
+                <a class="btn" href="">Ajouté au panier</a>
+            </div>
+            <div>
+                <h2 class="nomProduit"></h2>
+                <img class="imgProduit" src="" width="100%" alt="">
+                <h2>Price : <span></span></h2>
+                <a class="btn" href="">Ajouté au panier</a>
+            </div>
+            <div>
+                <h2 class="nomProduit"></h2>
+                <img class="imgProduit" src="" width="100%" alt="">
+                <h2>Price : <span></span>€</h2>
+                <a class="btn" href="">Ajouté au panier</a>
+            </div>
+            <div>
+                <h2 class="nomProduit"></h2>
+                <img class="imgProduit" src="" width="100%" alt="">
+                <h2>Price : <span></span>€</h2>  
+                <a class="btn" href="">Ajouté au panier</a>
+            </div>
+            <div>
+                <h2 class="nomProduit"></h2>
+                <img class="imgProduit" src="" width="100%" alt="">
+                <h2>Price : <span></span>€</h2>
+                <a class="btn" href="">Ajouté au panier</a>
+            </div>
+            <div>
+                <h2 class="nomProduit"></h2>
+                <img class="imgProduit" src="" width="100%" alt="">
+                <h2>Price : <span></span>€</h2>
+                <a class="btn" href="">Ajouté au panier</a>
+            </div>
+            <div>
+                <h2 class="nomProduit"></h2>
+                <img class="imgProduit" src="" width="100%" alt="">
+                <h2>Price : <span></span>€</h2>
+                <a class="btn" href="">Ajouté au panier</a>
+            </div>
+        </div>
+        <div id="panier">
+            <h2>Panier</h2>
+            <div id="containerProduits"></div>
+                    <table border="1" cellspacing="0" cellpadding="20">
+            <thead align="center" bgcolor="rgba(2,0,36,1)">
+                <tr>
+                    <th>Telephone</th>
+                    <th>Prix</th>
+                    <th>Quantité</th>
+                    <th>Supprimer</th>
+                </tr>
+            </thead>
+            <tbody id="fill-table" align="center">
+                
+            </tbody>
+            <thead align="center" bgcolor="rgba(2,0,36,1)">
+                <tr>
+                    <th>Total price : </th>
+                    <th><span id="total-price"></span></th>
+                </tr>
+            </thead>
+            <thead align="center" bgcolor="rgba(2,0,36,1)">
+                <tr>
+                    <th>Achat avant réduction : </th>
+                    <th><span id="price-reduction"></span></th>
+                </tr>
+            </thead>
+        </table>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

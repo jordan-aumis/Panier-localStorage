@@ -1,0 +1,19 @@
+[
+    {"idProduit": "1", "imageProduit": "./img/phone1.png", "nomProduit": "Jphone", "prixProduit": "19" },
+
+    {"idProduit": "2", "imageProduit": "./img/phone1.png", "nomProduit": "Kphone", "prixProduit": "29" },
+
+    {"idProduit": "3", "imageProduit": "./img/phone1.png", "nomProduit": "Lphone", "prixProduit": "99" },
+
+    {"idProduit": "4", "imageProduit": "./img/phone1.png", "nomProduit": "Aphone", "prixProduit": "10" },
+
+    {"idProduit": "5", "imageProduit": "./img/phone1.png", "nomProduit": "Cphone", "prixProduit": "100" },
+
+    {"idProduit": "6", "imageProduit": "./img/phone1.png", "nomProduit": "Bphone", "prixProduit": "35" },
+
+    {"idProduit": "7", "imageProduit": "./img/phone1.png", "nomProduit": "Yphone", "prixProduit": "50" },
+
+    {"idProduit": "8", "imageProduit": "./img/phone1.png", "nomProduit": "Uphone", "prixProduit": "70" },
+
+    {"idProduit": "9", "imageProduit": "./img/phone1.png", "nomProduit": "Pphone", "prixProduit": "100" }
+]
